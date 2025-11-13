@@ -20,3 +20,8 @@
 # The numbers are equal!
 
 # Write your code here:
+
+n1 = int(input("Please type in the first number: "))
+n2 = int(input("Please type in another number: "))
+if n1==n2:print("The numbers are equal!")
+else: print("The greater number was: " + str(max(n1,n2)))
