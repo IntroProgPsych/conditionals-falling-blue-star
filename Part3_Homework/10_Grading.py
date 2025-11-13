@@ -8,8 +8,7 @@
 # 60-69: D
 # Below 60: F
 
-n = input("score: ")
-if n.isnumeric(): n = int(n)
+n = int(input("score: "))
 
 grade = None
 
