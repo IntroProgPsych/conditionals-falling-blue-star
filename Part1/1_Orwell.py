@@ -9,3 +9,7 @@
 # Orwell
 
 # Write your code here:
+
+n = int(input("Please type in a number: "))
+#if n.isnumeric(): n = int(n)
+if n == 1984: print("Orwell")
